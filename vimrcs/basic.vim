@@ -31,8 +31,8 @@
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Sets how many lines of history VIM has to remember
-set history=500
-
+let g:go_version_warning = 0
+set history=2000
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
